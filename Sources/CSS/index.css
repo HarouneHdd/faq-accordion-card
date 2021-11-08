@@ -54,13 +54,32 @@ body {
 
 @media only screen and (min-width: 375px) {
     #faq-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         background-color: white;
+        width: 450px;
+        height: 750px;
+        border-radius: 25px;
+        box-shadow: 0px 30px 40px 5px #1d1e3558;
     }
     
     #illustration-art {
         content: url(../Images/illustration-woman-online-mobile.svg);
+        width: 75%;
+        position: relative;
+        bottom: 225px;
     }
     #illustration-art-drop-shadow {
         content: url(../Images/bg-pattern-mobile.svg);
+        width: 75%;
+        position: relative;
+        bottom: 330px;
+    }
+
+    #faq-container h1 {
+        
     }
 }
