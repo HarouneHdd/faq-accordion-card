@@ -51,6 +51,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+.flex-question {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
 
 @media only screen and (min-width: 375px) {
     #faq-container {
@@ -80,6 +87,7 @@ body {
     }
 
     #faq-container h1 {
-        
+        font-size: 2.6rem;
+        font-weight: 700;
     }
 }
