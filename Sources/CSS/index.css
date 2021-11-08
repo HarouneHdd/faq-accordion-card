@@ -59,21 +59,8 @@ p {
 
 .flex-question {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-}
-.flex-question:hover {
-    cursor: pointer;
-    color: #f47c57;
-}
-.flex-question:focus {
-    color: black;
-    font-weight: bold;
-}
-.flex-question:focus img {
-    transform: rotate(180deg);
 }
 
 details {
@@ -87,6 +74,7 @@ details summary {
 }
 details:hover {
     cursor: pointer;
+    color: #f47c57;
 }
 details[open] img {
     transform: rotate(180deg);
@@ -135,7 +123,7 @@ details .know-more {
 
     #questions-container {
         width: 85%;
-        height: 450px;
+        height: 60%;
         position: relative;
         top: 15%;
     }
