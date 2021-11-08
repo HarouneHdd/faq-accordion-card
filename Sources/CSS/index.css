@@ -69,8 +69,11 @@ details {
     width: 100%;
     margin-bottom: 20px;
 }
-details summary {
+summary {
     list-style: none;
+}
+summary::-webkit-details-marker {
+    display: none; 
 }
 details:hover {
     cursor: pointer;
