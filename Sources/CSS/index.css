@@ -56,11 +56,23 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .flex-question {
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+}
+.flex-question:hover {
+    cursor: pointer;
+    color: #f47c57;
+}
+.flex-question:focus {
+    color: black;
+    font-weight: bold;
+}
+.flex-question:focus img {
+    transform: rotate(180deg);
 }
 
 @media only screen and (min-width: 375px) {
@@ -92,7 +104,7 @@ p {
 
     #faq-container h1 {
         font-size: 3.5rem;
-        font-weight: bolder;
+        font-weight: bold;
         position: relative;
         bottom: 235px;
     }
