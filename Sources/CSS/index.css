@@ -44,7 +44,19 @@ body {
 }
 
 /* # Layout and Design */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 375px) {
+    #faq-container {
+        background-color: white;
+    }
+    
     #illustration-art {
         content: url(../Images/illustration-woman-online-mobile.svg);
     }
