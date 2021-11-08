@@ -37,3 +37,13 @@ html {
 #light-grayish-blue {
     color: #e7e7e9;
 }
+
+/* # Layout and Design */
+@media only screen and (min-width: 375px) {
+    #illustration-art {
+        content: url(../Images/illustration-woman-online-mobile.svg);
+    }
+    #illustration-art-drop-shadow {
+        content: url(../Images/bg-pattern-mobile.svg);
+    }
+}
