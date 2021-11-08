@@ -7,6 +7,7 @@
 html {
     font-size: 12px;
     font-family: "Kumbh Sans", Helvetica, sans-serif;
+    color: #1d1e35;
 }
 body {
     background-image: linear-gradient(#af67e9, #6565e7);
@@ -60,7 +61,6 @@ p {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-    width: 85%;
 }
 
 @media only screen and (min-width: 375px) {
@@ -81,17 +81,31 @@ p {
         content: url(../Images/illustration-woman-online-mobile.svg);
         width: 75%;
         position: relative;
-        bottom: 225px;
+        bottom: 160px;
     }
     #illustration-art-drop-shadow {
         content: url(../Images/bg-pattern-mobile.svg);
         width: 75%;
         position: relative;
-        bottom: 330px;
+        bottom: 265px;
     }
 
     #faq-container h1 {
-        font-size: 2.6rem;
-        font-weight: 700;
+        font-size: 3.5rem;
+        font-weight: bolder;
+        position: relative;
+        bottom: 235px;
+    }
+
+    #questions-container {
+        width: 85%;
+        position: relative;
+        bottom: 25%;
+    }
+    #faq-container hr {
+        height: 1px;
+        background-color: #e7e7e9;
+        border: none;
+        margin: 19px 0 21px 0;
     }
 }
