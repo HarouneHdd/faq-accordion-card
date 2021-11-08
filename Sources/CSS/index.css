@@ -1,0 +1,39 @@
+/* # General */
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url(../Fonts/KumbhSans-VariableFont_wght.ttf) format("truetype");
+}
+
+html {
+    font-size: 12px;
+    font-family: "Kumbh Sans", Helvetica, sans-serif;
+}
+
+/* # constants */
+/* ## Primary */
+/* ### Text */
+#very-dark-desaturated-blue {
+    color: #1d1e35;
+}
+#soft-red {
+    color: #f47c57;
+}
+/* ### Gradient (BG color) */
+#soft-violet {
+    background-color: #af67e9;
+}
+#soft-blue {
+    background-color: #6565e7;
+}
+/* ## Neutral */
+/* ### Text */
+#very-dark-grayish-blue {
+    color: #4a4b5e;
+}
+#dark-grayish-blue {
+    color: #787887;
+}
+/* ### Dividers */
+#light-grayish-blue {
+    color: #e7e7e9;
+}
