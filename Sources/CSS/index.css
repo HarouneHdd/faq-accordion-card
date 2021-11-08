@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
 }
 p {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 400;
 }
 
@@ -60,6 +60,7 @@ details {
 }
 summary {
     list-style: none;
+    margin-bottom: 3%;
 }
 summary::-webkit-details-marker {
     display: none; 
@@ -77,7 +78,9 @@ details[open] summary p {
 }
 details .know-more {
     color: #787887;
-    cursor: default;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    cursor: text;
 }
 
 @media only screen and (min-width: 375px) {
@@ -88,8 +91,8 @@ details .know-more {
         bottom: 0;
         left: 0;
         background-color: white;
-        width: 450px;
-        height: 750px;
+        width: 420px;
+        height: 670px;
         border-radius: 25px;
         box-shadow: 0px 30px 40px 5px #1d1e3558;
     }
@@ -98,32 +101,32 @@ details .know-more {
         content: url(../Images/illustration-woman-online-mobile.svg);
         width: 75%;
         position: absolute;
-        bottom: 86%;
+        bottom: 85%;
     }
     #illustration-art-drop-shadow {
         content: url(../Images/bg-pattern-mobile.svg);
         width: 75%;
         position: absolute;
-        bottom: 80%;
+        bottom: 79%;
     }
 
     #faq-container h1 {
         font-size: 3.5rem;
         font-weight: bold;
         position: absolute;
-        bottom: 70%;
+        bottom: 66%;
     }
 
     #questions-container {
         width: 85%;
         height: 60%;
         position: relative;
-        top: 15%;
+        top: 22%;
     }
     #faq-container hr {
         height: 1px;
         background-color: #e7e7e9;
         border: none;
-        margin: 19px 0 21px 0;
+        margin: 20px 0 22px 0;
     }
 }
