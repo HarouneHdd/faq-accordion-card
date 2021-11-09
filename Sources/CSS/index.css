@@ -14,10 +14,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-p {
-    font-size: 1.35rem;
-    font-weight: 400;
-}
 
 /* # Constants */
 /* ## Colors */
@@ -58,6 +54,8 @@ summary {
     justify-content: space-between;
     list-style: none;
     margin-bottom: 3%;
+    font-size: 1.35rem;
+    font-weight: 400;
 }
 summary::-webkit-details-marker {
     display: none; 
