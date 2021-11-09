@@ -97,17 +97,26 @@ details .know-more {
         box-shadow: 0px 30px 40px 5px #1d1e3558;
     }
     
+    #illustration-box {
+        display: none;
+    }
     #illustration-art {
         content: url(../Images/illustration-woman-online-mobile.svg);
         width: 75%;
         position: absolute;
         bottom: 85%;
+        z-index: 9;
     }
     #illustration-art-drop-shadow {
         content: url(../Images/bg-pattern-mobile.svg);
         width: 75%;
         position: absolute;
         bottom: 79%;
+        z-index: 8;
+    }
+
+    #hidden-overflow-container {
+        display: none;
     }
 
     #faq-container h1 {
@@ -133,33 +142,51 @@ details .know-more {
 
 @media only screen and (min-width: 1440px) {
     #faq-container {
-        width: 902px;
-        height: 520px;
-        overflow: hidden;
+        width: 950px;
+        height: 550px;
     }
     
+    #illustration-box {
+        content: url("../Images/illustration-box-desktop.svg");
+        display: inherit;
+        position: absolute;
+        right: 89.7%;
+        bottom: 23%;
+        z-index: 10;
+        visibility:visible;
+    }
     #illustration-art {
         content: url(../Images/illustration-woman-online-desktop.svg);
-        width: 50%;
-        bottom: 21%;
-        right: 59%;
+        width: 486px;
+        bottom: 15.5%;
+        right: 6%;
     }
     #illustration-art-drop-shadow {
         content: url(../Images/bg-pattern-desktop.svg);
-        width: 100%;
-        bottom: -18%;
-        right: 58%;
+        width: 1040px;
+        bottom: -27%;
+        right: 7%;
+    }
+    /* This is related to a div that hides the parts that overflows from children */
+    #hidden-overflow-container {
+        display: inherit;
+        position: absolute;
+        border-radius: 25px;
+        height: 100%;
+        width: 45%;
+        left: 0;
+        overflow: hidden;
     }
 
     #faq-container h1 {
-        bottom: 78%;
+        bottom: 79%;
         right: 38%;
     }
 
     #questions-container {
         width: 36%;
         height: 60%;
-        top: 10.5%;
-        left: 20%;
+        top: 10%;
+        left: 21%;
     }
 }
