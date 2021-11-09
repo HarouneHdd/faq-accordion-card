@@ -44,11 +44,11 @@ Users should be able to:
 
 ### What I learned
 
-I'm understanding more when to use each layout property.
+I'm understanding more when it comes to using display and position properties.
 
 ### Continued development
 
-I'm looking for working more with javascript, and animating elements.
+I want to work more with javascript. And I'm interested in animating elements.
 
 ## Author
 
