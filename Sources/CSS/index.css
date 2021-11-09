@@ -59,6 +59,9 @@ details {
     margin-bottom: 20px;
 }
 summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
     margin-bottom: 3%;
 }
