@@ -101,7 +101,6 @@ details .know-more {
         display: none;
     }
     #illustration-art {
-        content: url(../Images/illustration-woman-online-mobile.svg);
         display: inherit;
         width: 75%;
         position: absolute;
@@ -109,7 +108,6 @@ details .know-more {
         z-index: 9;
     }
     #illustration-art-drop-shadow {
-        content: url(../Images/bg-pattern-mobile.svg);
         display: inherit;
         width: 75%;
         position: absolute;
@@ -149,7 +147,6 @@ details .know-more {
     }
     
     #illustration-box {
-        content: url("../Images/illustration-box-desktop.svg");
         display: inherit;
         position: absolute;
         right: 89.7%;
@@ -175,7 +172,6 @@ details .know-more {
         overflow: hidden;
     }
     #hoc-content-1 {
-        content: url(../Images/illustration-woman-online-desktop.svg);
         position: absolute;
         width: 486px;
         bottom: 15.5%;
@@ -183,7 +179,6 @@ details .know-more {
         z-index: 9;
     }
     #hoc-content-2 {
-        content: url(../Images/bg-pattern-desktop.svg);
         position: absolute;
         width: 1040px;
         bottom: -27%;
