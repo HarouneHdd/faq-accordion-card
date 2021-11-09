@@ -130,3 +130,36 @@ details .know-more {
         margin: 20px 0 22px 0;
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    #faq-container {
+        width: 902px;
+        height: 520px;
+        overflow: hidden;
+    }
+    
+    #illustration-art {
+        content: url(../Images/illustration-woman-online-desktop.svg);
+        width: 50%;
+        bottom: 21%;
+        right: 59%;
+    }
+    #illustration-art-drop-shadow {
+        content: url(../Images/bg-pattern-desktop.svg);
+        width: 100%;
+        bottom: -18%;
+        right: 58%;
+    }
+
+    #faq-container h1 {
+        bottom: 78%;
+        right: 38%;
+    }
+
+    #questions-container {
+        width: 36%;
+        height: 60%;
+        top: 10.5%;
+        left: 20%;
+    }
+}
