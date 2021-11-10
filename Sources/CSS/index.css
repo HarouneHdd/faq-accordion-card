@@ -5,9 +5,11 @@
 }
 
 * {
-    font-size: 12px;
     font-family: "Kumbh Sans", Helvetica, sans-serif;
     color: #1d1e35;
+}
+html {
+    font-size: 12px;   
 }
 body {
     background-image: linear-gradient(#af67e9, #6565e7);
