@@ -137,7 +137,7 @@ details .know-more {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
     #faq-container {
         width: 950px;
         height: 550px;
