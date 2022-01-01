@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://harounehdd.github.io/faq-accordion-card/](https://harounehdd.github.io/faq-accordion-card/)
+- Live Site URL: [https://harounehadid.github.io/faq-accordion-card/](https://harounehadid.github.io/faq-accordion-card/)
 
 ## My process
 
